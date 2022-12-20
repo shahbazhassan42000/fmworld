@@ -1,12 +1,20 @@
 body {
-    background: url("../assets/images/Background With Logo (1).jpg") no-repeat;
+    background: url("../assets/images/bg.jpg") no-repeat;
     background-size: 100vw 100vh;
     padding: 20px;
 }
-
+header{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+header img{
+    width: 80vh;
+    margin:0 auto;
+}
 .social {
-    width: 28vw;
-    padding-top: 40vh;
+    margin-top: 10px;
+    width: 40vh;
     display: flex;
     flex-direction: column;
     color: #ffffff;
@@ -118,8 +126,8 @@ body {
     justify-content: center;
 
 }
-@media only screen and (max-width: 920px) {
-    body {
-
+@media only screen and (max-width: 600px) {
+    header img{
+        width: 60vh;
     }
 }
