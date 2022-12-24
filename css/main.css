@@ -126,7 +126,7 @@ header img{
     justify-content: center;
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     header img{
         width: 60vh;
     }
