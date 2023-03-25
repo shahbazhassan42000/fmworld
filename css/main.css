@@ -22,7 +22,7 @@ header img{
 
 .social_icons p {
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .icon_box {
@@ -31,6 +31,7 @@ header img{
     align-items: center;
     text-decoration: none;
     color: #ffffff;
+    margin-right: 20px;
 }
 
 .fa-youtube {
@@ -81,7 +82,7 @@ header img{
 }
 .icon_box span {
     text-align: center;
-    font-size: 28px;
+    font-size: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,7 +108,7 @@ header img{
    height: 30px;
 }
 .fb img{
-    height: 39px;
+    height: 30px;
 }
 
 .fm{
@@ -154,10 +155,24 @@ header img{
     .fm-title h2{
         font-size: 1rem;
         text-align: center;
-
+    }
+    .social h2,.social_icons p{
+        font-size: 1rem;
     }
     .social {
         width: 30vh;
+    }
+    .yt img{
+        height: 30px;
+    }
+    .fb img{
+        height: 30px;
+    }
+    .icon_box span {
+        font-size: 22px;
+    }
+    .icon_box {
+        margin-right: 5px;
     }
 }
 
